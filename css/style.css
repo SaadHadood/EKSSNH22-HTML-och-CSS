@@ -49,7 +49,7 @@ html, body {
     .top-menu > .container {
         height: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: end;
         align-items: center;
     }
 
@@ -90,7 +90,14 @@ html, body {
                     }
 
 
+    .top-menu .menu-links {
+        display: none;
+    }
 
+    .top-menu .menu-links .links {
+        display: none;
+    }
+                    
     .top-menu .menu-links a {
         color: var(--color-white);
         text-decoration: none;
@@ -110,3 +117,22 @@ html, body {
                 .top-menu .menu-links .social-media a:last-child {
                     margin: 0 0 0 0.3rem;
                 }
+
+
+@media (min-width: 578px) {
+    .top-menu .menu-links {
+        display: block;
+    }
+
+    .top-menu > .container {
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 992px)  {
+
+
+    .top-menu .menu-links .links {
+        display: inline;
+    }
+}        
