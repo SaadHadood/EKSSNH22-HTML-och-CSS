@@ -664,26 +664,57 @@ a {
         align-items: start;
     }
 
-    .external-logins {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        z-index: 0;
+.external-logins {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+    .external-logins .label {
+        background-color: var(--color-gray-4);
+        padding: 0 1rem;
+        z-index: 2;
     }
-        .external-logins .label {
-            background-color: var(--color-gray-4);
-            padding: 0 1rem;
-            z-index: 2;
+        .external-logins .line {
+            position: absolute;
+            top: 10px;
+            left: 0;
+            right: 0;
+            border: 1px solid var(--color-gray-0);
+            z-index: -1;
+            opacity: 0.5;
         }
-            .external-logins .line {
-                position: absolute;
-                top: 10px;
-                left: 0;
-                right: 0;
-                border: 1px solid var(--color-gray-0);
-                z-index: -1;
-                opacity: 0.5;
-            }
+
+.external-socialmedia-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
+    .external-socialmedia-buttons .facebook-button {
+        text-align: left;
+    }
+
+    .external-socialmedia-buttons .facebook-button button {
+        background-image: url(../images/buttons/facebook-login-button.svg);
+        background-repeat: no-repeat;
+        border: none;
+        height: 42px;
+        width: 235px;
+    }
+    .external-socialmedia-buttons .google-button {
+        text-align: right;
+    }
+    .external-socialmedia-buttons .google-button button {
+        background-image: url(../images/buttons/google-login-button.svg);
+        background-repeat: no-repeat;
+        border: none;
+        height: 42px;
+        width: 235px;
+    }
+    .external-socialmedia-buttons .facebook-button button:hover,
+    .external-socialmedia-buttons .google-button button:hover {
+        filter: brightness(90%);
+    }
 
 
 
