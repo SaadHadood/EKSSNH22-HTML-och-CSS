@@ -104,12 +104,12 @@ html, body {
             margin: 1rem 0;
         }
   
-a {
+.signup-signin a {
     color: var(--color-theme);
     font-weight: var(--font-weight-regular);
     text-decoration: none;
 }
-    a:hover {
+.signup-signin a:hover {
         color: var(--color-theme-dark);
         text-decoration: underline;
     }
@@ -752,6 +752,658 @@ a {
     .external-socialmedia-buttons .google-button button:hover {
         filter: brightness(90%);
     }
+
+
+/* showcase2 */
+.showcasemy {
+    background-color: #CCCCCC; 
+}
+    .showcasemy .container {
+        margin-top: 7rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .showcasemy .showcasemy-body {
+            
+            background-color: #20D3C2;
+            width: 225px;
+            height: 340px;
+            text-align: center;
+        }
+        .showcasemy .showcasemy-body h1 {
+            padding-top: 4.8rem;
+        }
+        .showcasemy .showcasemy-body h1 strong {
+            font-family: var(--font-play);
+            font-weight: var(--font-weight-bold);
+            color: var(--color-white);
+            font-size: 3.75rem;
+        }
+        .showcasemy .showcasemy-body h1 span {
+            
+            font-size: 2.25rem;
+            font-family: var(--font-play);
+            color: var(--color-white);
+            font-weight: var(--font-weight-bold);
+        }
+        .showcasemy .showcasemy-body p {
+            margin: 0;
+            padding-bottom:1rem;
+            color: var(--color-white);
+            font-family: var(--font-weight-regular);
+            font-size: 1rem;
+        }
+/*         .showcasemy-body a {
+            background-color: #0E153D;
+            color: var(--color-white);
+            font-size: var(--font-weight-medium);
+            
+        }
+        .showcasemy-body a:hover {
+            background-color: #010104;
+            border: none;
+        } */
+
+        .anotherText {
+            margin-left: 330px;
+        }
+
+        .anotherText p {
+            font-family: var(--font-roboto);
+            font-size: 0.875rem;
+            color: var(--color-white);
+        }
+
+        .anotherText .knapp {
+            display: flex;
+            align-items: center;
+        }
+
+
+/* showcase2-2 */
+.showcasemy-tow {
+    background-color: #0E153D; 
+}
+    .showcasemy-tow .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7rem;
+        height: 357px;
+    }
+
+        .showcasemy-tow .showcasemy-tow-body {
+            background-color: #20D3C2;
+            width: 380px;
+            height: 220px;
+            text-align: center;
+            align-self: start;
+        }
+        .showcasemy-tow .showcasemy-tow-body h1 {
+            padding-top: 2rem;
+            font-family: var(--font-play);
+            font-weight: var(--font-weight-bold);
+            color: var(--color-white);
+            font-size: 3rem;
+            
+        }
+
+        .showcasemy-tow .showcasemy-tow-body p {
+            color: var(--color-white);
+            font-family: var(--font-weight-medium);
+            font-size: 1.2rem;
+        }
+
+
+        .anotherText{
+            margin-left: 580px;
+        }
+
+            .anotherText span {
+            height: 0px;
+            width: 108px;
+            background-color: #FFFFFF;
+            border-radius: 50%;
+            display: inline-block;
+            text-align: center;
+            color: #20D3C2;
+            font-family: var(--font-play);
+            font-weight: var(--font-weight-bold);
+            font-size: 2rem;
+            padding: 1rem 0px 100px 0px;
+            margin-right: 20px;
+            border-style: dotted;
+            outline-style: dotted;
+            margin-bottom: 30px;
+        }
+
+        .showcasemy-tow .anotherText a {
+            margin: 10px 180px; 
+        }
+
+        .anotherText span p {
+            font-family: var(--font-roboto);
+            font-weight: var(--font-weight-regular);
+            font-size: 16px;
+            color: #0E153D;
+            text-align: center;
+        }
+
+
+
+
+
+
+    .top-sellers {
+        padding-top: 6rem;  
+    }    
+
+
+ 
+
+    .top-sellers .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(100px, 249px));
+        grid-template-rows: repeat(2, minmax(100px, 325px));
+        gap: 0.3rem;
+    }
+
+    .top-sellers .card {
+        position: relative;
+        height: 680px;
+        width: 500px;
+        overflow: hidden;
+        border: none;
+    }
+
+ 
+
+
+    .top-sellers .card .card-body {
+        position: absolute;
+        padding: 1rem;
+        bottom: 0;
+        height: 14%;
+        width: 100%;
+        color: var(--color-white);
+        z-index: 1;
+        transition: 0.3s ease-in-out;
+        font-size: 1rem;
+    }
+        .top-sellers .card:hover .card-body {
+            height: 40%;
+        }
+
+        .top-sellers .card .card-body h1 {
+            font-size: 1.125rem;
+            margin-bottom: 3.5rem;
+            padding-top: 50px;
+            transition: 0.3s ease-in-out;
+            font-weight: var(--font-weight-regular);
+        }
+            .top-sellers .card:hover .card-body h1 {
+                margin-bottom: 0;
+            }
+
+        .top-sellers .card .card-body button {
+            background-color: transparent;
+            color: var(--color-white);
+            border: 1px solid var(--color-white);
+            font-size: 0.875rem;
+            padding-left: 0.9rem;
+            padding-right: 0.9rem;
+            margin: 0.5rem 0;
+        }
+
+        .top-sellers .card .card-body .card-old-price {
+            text-decoration: line-through;
+            margin: 0;
+        }
+        .top-sellers .card .card-body .card-discount-price {
+            color: var(--color-theme);
+            font-weight: var(--font-weight-medium);
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+    .top-sellers .card .card-background {
+        position: absolute;
+        bottom: 0;
+        height: 7.4%;
+        width: 100%;
+        background-color: var(--color-theme-dark);
+        opacity: 0.90;
+        transition: height 0.3s ease-in-out;
+    }
+        .top-sellers .card:hover .card-background {
+            height: 100%;
+        }    
+
+
+
+
+    .top-sellers .card .card-menu {
+        position: absolute;
+        z-index: 1;
+        top: 121%;
+        right: 1rem;
+        list-style: none;
+        padding: 0.8rem;
+        font-size: 1.25rem;
+        border-radius: var(--border-radius-medium);
+        background-color: var(--color-white);
+        transition: top 0.3s ease-in-out;
+    }  
+        .top-sellers .card:hover .card-menu {
+            top: 20px;
+        }
+
+            .top-sellers .card .card-menu li {
+                margin-top: 0.3rem;
+                margin-bottom: 0.3rem;
+                font-size: 1.0em;
+            }
+
+                .top-sellers .card .card-menu li a {
+                    color: var(--color-gray-0);
+                }
+                    .top-sellers .card .card-menu li a:hover {
+                        color: var(--color-theme);
+                    }
+
+
+
+
+
+
+
+    .top-sellers .sellers-box {
+        position: relative;
+        background-color: #F6F6F6;
+        border-radius: var(--border-radius-small);
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+
+
+    .top-sellers .card-t {
+        position: relative;
+        height: 336px;
+        width: 775px;
+        left: 260px;
+        overflow: hidden;
+        background-color: #F6F6F6;
+        border-radius: var(--border-radius-small); 
+    }
+
+    .top-sellers .card-t .card-body {
+        position: absolute;
+        padding: 1rem;
+        bottom: 0;
+        height: 14%;
+        width: 100%;
+        color: var(--color-white);
+        z-index: 1;
+        transition: 0.3s ease-in-out;
+        font-size: 1rem;
+    }
+        .top-sellers .card-t:hover .card-body {
+            height: 50%;
+        }
+
+        .top-sellers .card-t .card-body h1 {
+            font-size: 1.125rem;
+            margin-bottom: 1rem;
+            transition: 0.3s ease-in-out;
+            font-weight: var(--font-weight-regular);
+        }
+            .top-sellers .card-t:hover .card-body h1 {
+                margin-bottom: 0;
+            }
+
+        .top-sellers .card-t .card-body button {
+            background-color: transparent;
+            color: var(--color-white);
+            border: 1px solid var(--color-white);
+            font-size: 0.875rem;
+            padding-left: 0.9rem;
+            padding-right: 0.9rem;
+            margin: 0.5rem 0;
+        }
+
+        .top-sellers .card-t .card-body .card-old-price {
+            text-decoration: line-through;
+            margin: 0;
+        }
+        .top-sellers .card-t .card-body .card-discount-price {
+            color: var(--color-theme);
+            font-weight: var(--font-weight-medium);
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+    .top-sellers .card-t .card-background {
+        position: absolute;
+        bottom: 0;
+        height: 15%;
+        width: 100%;
+        background-color: var(--color-theme-dark);
+        opacity: 0.90;
+        transition: height 0.3s ease-in-out;
+    }
+        .top-sellers .card-t:hover .card-background {
+            height: 100%;
+        }    
+
+
+    .top-sellers .card-t .card-menu {
+        position: absolute;
+        z-index: 1;
+        top: 121%;
+        right: 1rem;
+        list-style: none;
+        padding: 0.8rem;
+        font-size: 1.25rem;
+        border-radius: var(--border-radius-medium);
+        background-color: var(--color-white);
+        transition: top 0.3s ease-in-out;
+    }  
+        .top-sellers .card-t:hover .card-menu {
+            top: 20px;
+        }
+
+            .top-sellers .card-t .card-menu li {
+                margin-top: 0.3rem;
+                margin-bottom: 0.3rem;
+                font-size: 1.0em;
+            }
+
+                .top-sellers .card-t .card-menu li a {
+                    color: var(--color-gray-0);
+                }
+                    .top-sellers .card-t .card-menu li a:hover {
+                        color: var(--color-theme);
+                    }
+
+
+
+
+
+
+
+                    .top-sellers .card-tt {
+                        position: relative;
+                        height: 336px;
+                        width: 775px;
+                        left: 515px;
+                        margin-top: 0.9rem;
+                        overflow: hidden;
+                        background-color: #F6F6F6;
+                        border-radius: var(--border-radius-small);
+                    }
+                
+                
+                
+                
+                
+                    .top-sellers .card-tt .card-body {
+                        position: absolute;
+                        padding: 1rem;
+                        bottom: 0;
+                        height: 14%;
+                        width: 100%;
+                        color: var(--color-white);
+                        z-index: 1;
+                        transition: 0.3s ease-in-out;
+                        font-size: 1rem;
+                    }
+                        .top-sellers .card-tt:hover .card-body {
+                            height: 50%;
+                        }
+                
+                        .top-sellers .card-tt .card-body h1 {
+                            font-size: 1.125rem;
+                            margin-bottom: 1rem;
+                            transition: 0.3s ease-in-out;
+                            font-weight: var(--font-weight-regular);
+                        }
+                            .top-sellers .card-tt:hover .card-body h1 {
+                                margin-bottom: 0;
+                            }
+                
+                        .top-sellers .card-tt .card-body button {
+                            background-color: transparent;
+                            color: var(--color-white);
+                            border: 1px solid var(--color-white);
+                            font-size: 0.875rem;
+                            padding-left: 0.9rem;
+                            padding-right: 0.9rem;
+                            margin: 0.5rem 0;
+                        }
+                
+                        .top-sellers .card-tt .card-body .card-old-price {
+                            text-decoration: line-through;
+                            margin: 0;
+                        }
+                        .top-sellers .card-tt .card-body .card-discount-price {
+                            color: var(--color-theme);
+                            font-weight: var(--font-weight-medium);
+                            font-size: 1.5em;
+                            margin: 0;
+                        }
+                
+                    .top-sellers .card-tt .card-background {
+                        position: absolute;
+                        bottom: 0;
+                        height: 15%;
+                        width: 100%;
+                        background-color: var(--color-theme-dark);
+                        opacity: 0.90;
+                        transition: height 0.3s ease-in-out;
+                    }
+                        .top-sellers .card-tt:hover .card-background {
+                            height: 100%;
+                        }    
+                
+                
+                
+                
+                    .top-sellers .card-tt .card-menu {
+                        position: absolute;
+                        z-index: 1;
+                        top: 121%;
+                        right: 1rem;
+                        list-style: none;
+                        padding: 0.8rem;
+                        font-size: 1.25rem;
+                        border-radius: var(--border-radius-medium);
+                        background-color: var(--color-white);
+                        transition: top 0.3s ease-in-out;
+                    }  
+                        .top-sellers .card-tt:hover .card-menu {
+                            top: 20px;
+                        }
+                
+                            .top-sellers .card-tt .card-menu li {
+                                margin-top: 0.3rem;
+                                margin-bottom: 0.3rem;
+                                font-size: 1.0em;
+                            }
+                
+                                .top-sellers .card-tt .card-menu li a {
+                                    color: var(--color-gray-0);
+                                }
+                                    .top-sellers .card-tt .card-menu li a:hover {
+                                        color: var(--color-theme);
+                                    }
+                
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #sellers-box-1 {
+        grid-column: 1 / 3;
+        grid-row: 1 / 4;
+    }
+
+    #sellers-box-2 {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+
+    #sellers-box-3 {
+        grid-column: 3 / 4;
+        grid-row: 2 / 4;
+
+    }
+
+    .top-sellers .grid img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+
+
+
+/* subscribe */
+.subscribe {
+    background-color: #F6F6F6; 
+}
+    .subscribe .container {
+        margin-top: 4rem;
+        height: 290px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    .subscribe .container .andra {
+        height: 290px;
+        width: 440px;
+        margin: auto;
+        margin-left: 400px;
+        background-color: #CCCCCC;
+    }
+
+
+        .subscribe .subscribe-body {
+            width: 450px;
+            height: 200px;
+            margin-top: -6rem;
+            text-align: center;
+        }
+        .subscribe .subscribe-body h1 {
+            padding-top: 4.8rem;
+        }
+        .subscribe .subscribe-body h1 {
+            font-family: var(--font-play);
+            font-weight: var(--font-weight-bold);
+            font-size: 2.25rem;
+            text-align: start;
+        }
+        .subscribe .subscribe-body h1 span {
+            font-family: var(--font-play);
+            font-weight: var(--font-weight-bold);
+            font-size: 2.25rem;
+            color: #20D3C2;
+        }
+        .subscribe .subscribe-body p {
+            font-family: var(--font-roboto);
+            font-weight: var(--font-weight-regular);
+            font-size: 0.9rem;
+            text-align: start;
+        }
+ 
+
+
+        .subscribe .search {
+            flex: 4;
+        }
+    
+    
+            .subscribe .search #serachboxForm {
+                position: relative;
+                border-radius: var(--border-radius-medium);
+                height: 45px;
+                margin: auto;
+            }
+    
+                .subscribe .search #serachboxForm input {
+                    border-radius: var(--border-radius-medium);
+                    height: 100%;
+                    width: 100%;
+                    outline: none;
+                    border: 1px solid var(--color-gray-2);
+                    font-size: 0.9rem;
+                    padding-left: 1.3rem;
+                }
+                .subscribe .search #serachboxForm button {
+                    position: absolute;
+                    top: 0;
+                    right: -2px;
+                    height: 90%;
+                    background-color: var(--color-theme);
+                    color: var(--color-white);
+                    border: none;
+                    border-radius: var(--border-radius-medium);
+                    font-weight: var(--font-weight-medium);
+                    padding-left: 1.75rem;
+                    padding-right: 1.75rem; 
+                    margin-top: 3px;
+                    margin-bottom: 3px;
+                    margin-right: 6px;
+                    transition: 0.3s ease-in-out;
+                }
+                .subscribe .search #serachboxForm button:hover {
+                    background-color: var(--color-theme-dark);
+                }
+
+
+
+
+
+                footer.footer {
+                    height: 50px;
+                    width: 100%;
+                    background-color: #080C24;
+                }
+                
+                .footer p {
+                    color: #FFFFFF;
+                    line-height: 50px;
+                    font-family: var(--font-roboto);
+                    font-weight: var(--font-weight-regular);
+                    font-size: 0.8rem;
+                }
+
+
+
 
 
 
