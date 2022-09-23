@@ -117,7 +117,10 @@
                     <form id="signinForm">
                         <div class="my-4">
                             <label for="signin_email">Email <span class="required">*</span></label>
-                            <input id="signin_email" type="email" autocomplete="email" required>
+                            <input id="signin_email" type="email" autocomplete="email" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+                            <div id="validationServer03Feedback" class="invalid-feedback">
+                                <!-- Please provide a valid email. -->
+                              </div>
                         </div>
                         <div class="mb-4">
                             <label for="signin_password">Password <span class="required">*</span></label>
